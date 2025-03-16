@@ -4,7 +4,7 @@ import HTML from "../assets/html.png";
 import CSS from "../assets/text.png";
 import JS from "../assets/js.png";
 import ReactLogo from "../assets/structure.png";
-import NodeJS from "../assets/nodeJs.png";
+const NodeJS = new URL("../assets/nodeJs.png", import.meta.url).href;
 import MongoDB from "../assets/MongoDB.png";
 import TypeScript from "../assets/typeScript.png";
 import Express from "../assets/expressJs.png";
