@@ -1,17 +1,16 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
-import HTML from "../assets/html.png";
-import CSS from "../assets/text.png";
-import JS from "../assets/js.png";
-import ReactLogo from "../assets/structure.png";
+const HTML = new URL("../assets/html.png", import.meta.url).href;
+const CSS = new URL("../assets/text.png", import.meta.url).href;
+const JS = new URL("../assets/js.png", import.meta.url).href;
+const ReactLogo = new URL("../assets/structure.png", import.meta.url).href;
 const NodeJS = new URL("../assets/nodeJs.png", import.meta.url).href;
-import MongoDB from "../assets/MongoDB.png";
-import TypeScript from "../assets/typeScript.png";
-import Express from "../assets/expressJs.png";
-import C from "../assets/c.png";
-import Python from "../assets/python.png";
-import Git from "../assets/git.png";
-
+const MongoDB = new URL("../assets/MongoDB.png", import.meta.url).href;
+const TypeScript = new URL("../assets/typeScript.png", import.meta.url).href;
+const Express = new URL("../assets/expressJs.png", import.meta.url).href;
+const C = new URL("../assets/c.png", import.meta.url).href;
+const Python = new URL("../assets/python.png", import.meta.url).href;
+const Git = new URL("../assets/git.png", import.meta.url).href;
 export default function Skills() {
   const skills = [
     { name: "HTML", img: HTML },
